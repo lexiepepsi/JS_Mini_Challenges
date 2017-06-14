@@ -45,13 +45,13 @@ console.log(yourName("bob"));
 
 function openThisDoor(doorNumber) {
 	if (doorNumber === 1) {
-		return alert("You win . . . an ice cream cone! Lucky you!!!");
+		return alert("You picked door number " + doorNumber + "! You win . . . an ice cream cone! Lucky you!!!");
 	} else if (doorNumber === 2) {
-		return alert("You win . . . a raccoon! . . . that's super weird.");
+		return alert("You picked door number " + doorNumber + "! You win . . . a raccoon! . . . that's super weird.");
 	} else if (doorNumber === 3) {
-		return alert("You win . . . a BRAND NEW pen! OMG that's the best prize ever!");
+		return alert("You picked door number " + doorNumber + "! You win . . . a BRAND NEW pen! OMG that's the best prize ever!");
 	} else {
-		return alert("Did you enter a number? There are only 3 doors.");
+		return alert("You picked door number " + doorNumber + "! Did you enter a number? There are only 3 doors.");
 	}
 }
 
