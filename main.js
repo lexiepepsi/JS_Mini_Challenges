@@ -22,7 +22,7 @@ console.log(DQ_blizzards[3][2]);
 
 // Write a script that checks if a variable is less than 100. If it is, alert the user that their variable is less than 100. If it is not alert the user of what the value was and that it was greater than 100.
 
-var x = 8100;
+var x = 8140;
 
 if (x < 100) {
 	alert("your number is SO small! It's less than 100.");
