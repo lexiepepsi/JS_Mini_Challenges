@@ -43,3 +43,16 @@ console.log(yourName("bob"));
 
 // Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
 
+function openThisDoor(doorNumber) {
+	if (doorNumber === 1) {
+		return alert("You win . . . an ice cream cone! Lucky you!!!");
+	} else if (doorNumber === 2) {
+		return alert("You win . . . a raccoon! . . . that's super weird.");
+	} else if (doorNumber === 3) {
+		return alert("You win . . . a BRAND NEW pen! OMG that's the best prize ever!");
+	} else {
+		return alert("Did you enter a number? There are only 3 doors.");
+	}
+}
+
+openThisDoor(2);
